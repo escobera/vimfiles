@@ -2,10 +2,10 @@
 
 git_bundles = [
   "git://github.com/mileszs/ack.vim.git",
-  # "git://github.com/tpope/vim-fugitive",
-  # "git://github.com/tpope/vim-rails.git",
+  "git://github.com/tpope/vim-fugitive",
+  "git://github.com/tpope/vim-rails.git",
   "git://github.com/tpope/vim-surround.git",
-  "git://github.com/tpope/vim-cucumber.git",
+  # "git://github.com/tpope/vim-cucumber.git",
   # "git://github.com/tpope/vim-speeddating",
   'git://github.com/plasticboy/vim-markdown.git',
   # "git://github.com/chrismetcalf/vim-yankring.git",
@@ -14,7 +14,7 @@ git_bundles = [
   # "git://github.com/scrooloose/syntastic.git",
 
   # "git://github.com/codegram/vim-todo.git",
-  "git://github.com/codegram/vim-numberlock.git",
+  # "git://github.com/codegram/vim-numberlock.git",
 
   "git://github.com/Townk/vim-autoclose.git",
 
@@ -42,7 +42,7 @@ git_bundles = [
   "git://github.com/vim-scripts/bufkill.vim.git",
   "git://github.com/Bogdanp/rbrepl.vim.git",
 
-  "git://github.com/vim-scripts/VimClojure.git"
+  # "git://github.com/vim-scripts/VimClojure.git"
 ]
 
 vim_org_scripts = [
