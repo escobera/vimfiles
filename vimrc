@@ -67,10 +67,10 @@ nnoremap <leader><space> :noh<cr>
 
 " Handle long lines correctly
 set wrap
-set textwidth=80
+" set textwidth=80
 set formatoptions=n
-set colorcolumn=80
-set tw=80
+" set colorcolumn=80
+" set tw=80
 
 " Show invisible characters
 " set list
@@ -183,7 +183,9 @@ set t_Co=256
 " colorscheme twilight
 " colorscheme mustang
 " colorscheme clouds_midnight
-colorscheme molokai
+" colorscheme molokai
+colorscheme railscasts
+
 " GUI "
 if has("gui_running")
   set guioptions-=T " no toolbar set guioptions-=m " no menus
@@ -193,9 +195,10 @@ if has("gui_running")
   set guioptions-=b " no scrollbar on the bottom
   set guioptions=aiA
   set mouse=v
-  set guifont=Monaco:h12 "<- Maybe a good idea when using mac
+  set guifont=Menlo:h14 "<- Maybe a good idea when using mac
 endif
-set guifont=Monaco:h12
+
+set guifont=Menlo:h14
 
 set nobackup
 set nowritebackup
@@ -216,7 +219,7 @@ if exists(":Tab")
 endif
 
 " Press F5 to toggle GUndo tree
-nnoremap <F5> :GundoToggle<CR>
+"nnoremap <F5> :GundoToggle<CR>
 
 " Essentials
 filetype off
