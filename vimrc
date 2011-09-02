@@ -107,7 +107,7 @@ map <C-n> :cn<CR>
 map <C-p> :cp<CR>
 
 " TComment
-map <Leader>co :TComment<CR>
+map <Leader>/ :TComment<CR>
 
 " Reselect text that was just pasted to perform further commands on it
 " nnoremap <leader>v V`]
