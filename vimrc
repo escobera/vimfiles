@@ -153,14 +153,14 @@ set pastetoggle=<F2>
 call pathogen#runtime_append_all_bundles()
 
 " NERDTree
-let NERDTreeShowBookmarks = 1
-let NERDChristmasTree = 1
-let NERDTreeWinPos = "left"
-let NERDTreeHijackNetrw = 1
-let NERDTreeQuitOnOpen = 1
-let NERDTreeWinSize = 50
-map <leader>p :NERDTreeToggle<cr>
-
+" let NERDTreeShowBookmarks = 1
+" let NERDChristmasTree = 1
+" let NERDTreeWinPos = "left"
+" let NERDTreeHijackNetrw = 1
+" let NERDTreeQuitOnOpen = 1
+" let NERDTreeWinSize = 50
+" map <leader>p :NERDTreeToggle<cr>
+"
 " PeepOpen
 map <leader>o <Plug>PeepOpen
 
@@ -184,7 +184,6 @@ set t_Co=256
 " colorscheme mustang
 " colorscheme clouds_midnight
 " colorscheme molokai
-colorscheme railscasts
 
 " GUI "
 if has("gui_running")
@@ -196,6 +195,9 @@ if has("gui_running")
   set guioptions=aiA
   set mouse=v
   set guifont=Menlo:h14 "<- Maybe a good idea when using mac
+  colorscheme railscasts
+else
+  colorscheme wombat256
 endif
 
 set guifont=Menlo:h14
