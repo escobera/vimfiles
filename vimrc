@@ -333,5 +333,8 @@ endfunction
 map <F8> :call PreviewMarkdown()<CR>
 
 " Settings for VimClojure
-let vimclojure#HighlightBuiltins = 1 " Highlight Clojure's builtins
-let vimclojure#ParenRainbow = 1      " Rainbow parentheses'!
+" let vimclojure#HighlightBuiltins = 1 " Highlight Clojure's builtins
+" let vimclojure#ParenRainbow = 1      " Rainbow parentheses'!
+
+" Settings for RVM
+set shell=bash
